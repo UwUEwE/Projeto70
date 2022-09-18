@@ -1,0 +1,28 @@
+body{
+background-color: black !important;
+color:white !important;
+}
+
+/* defina o estilo do filmesHead */
+
+.filmesHead{
+    /* defina o tamanho da fonte para 20 */
+   font-size: 20px ;
+    /* defina o padding para 6px e 22px */
+   padding: 6px 22px;
+    /* defina o raio da borda para 10px */
+   border-radius: 20px ;
+    /* defina a margin debaixo para 15px */
+   margin-bottom: 15px ;
+}
+
+/* defina o estilo do filmesHead i para que ele flutue para a direita */
+.filmesHead i{
+ 
+    float: right;
+}
+
+/* defina o estilo do filmesText span para que tenha a cor laranja  */
+.filmesText span{
+  color: orange;
+}

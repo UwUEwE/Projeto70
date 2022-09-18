@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>Meu primeiro blog</title>
+
+        <link rel="stylesheet" type='text/css' href="style.css">
+                
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    
+    <body>
+        
+        <nav class="navbar-inverse meuMenu">
+
+            <!--Irá exibir o conteúdo caso o site seja aberto no celular -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#meuMenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!--Irá exibir o conteúdo caso o site seja aberto no computador -->
+            <div class="collapse navbar-collapse" id="meuMenu">
+            <ul class="nav navbar-nav">
+                <!-- Complete o menu -->
+                    <li><a href="#">  JOGOS      </a></li>
+                    <li><a href="#"> SOBRE MIM   </a></li>
+                    <li><a href="#">  FILMES     </a></li>   
+                    <li><a href="#"> CONTATO     </a></li>
+                </ul>
+            </div>
+
+        </nav>
+            
+        
+   
+
+        <!--Para que a página seja responsiva, defina a classe para container -->
+        <div class="container" >
+
+        <!-- Defina a classe para PAGE-HEADER e o id para FILMES em minúsculo  e o texto para Crítica de Filmes-->
+        <h2 class="page-header" id="filmes" > Critíca de Filmes </h2>
+
+        <!--Defina a classe para BG-PRIMARY FILMESHEAD e o DATA-TOGGLE para COLLAPSE e o DATA TARGET para O NOME DO FILME -->
+
+        <div class="bg-primary filmesHead" data-toggle="collapse" data-target="#BeeMovie" >
+        <!--crie uma tag span da classe GLYPHICON GLYPHICON-FILM -->
+         <span class="glyphicon glyphicon-film"></span>  
+            Bee Movie
+            <!--código para criar uma setinha -->
+            <i class="fa fa-sort-desc" ></i>
+        </div>
+
+        <!--defina o id para o nome do filme a classe para COLLAPSE-->
+        <div id="BeeMovie" class="collapse"  >
+
+            <!--defina a classe para FILMESTEXT-->
+            <div class="filmesText" >
+
+            <!-- coloque a imagem do filme e a classe para IMG-RESPONSIVE IMG-THUMBNAIL -->
+            <img src="https://resizing.flixster.com/18icyRbPRhjrgvKB_7-9Z8lNrI0=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzA0MzljODE3LTgzMDMtNGRiOS1iOTM0LTM1ODk1ODMwNDIyOC53ZWJw" class="img-responsive img-thumbnail" > 
+
+            <!--Defina a classe para TEXT-SUCCESS TEXT-CAPITALIZE -->
+            <h5 class="text-success text-capitalize" > 
+                <!--Adicione uma descrição do filme -->
+               Esse filme é de abelhas ,é muito divertido e também mostra o sentido das abelhas estarem no mundo, 
+
+                <!--adicione 5 tags spans da classe GLYPHICON GLYPHICON-STAR -->
+                 <span class="glyphicon glyphicon-star"></span>
+                 <span class="glyphicon glyphicon-star"></span>
+                 <span class="glyphicon glyphicon-star"></span>
+                 <span class="glyphicon glyphicon-star"></span>
+                 <span class="glyphicon glyphicon-star"></span>
+            </h5>
+                <p>
+                <!-- conte sua experiência assistindo o filme -->
+                Esse filme é super divertido, pois tem umas coisas no filme que me fazem rir (como por exemplo o exposo na poder matar a abelha pois Vanessa protege a abelha porque ela é legal) e mostra como o mu ndo seria sem abelhas .
+            </p>
+            </div>
+        
+        </div>
+        
+       
+
+          <!--Defina a classe para BG-PRIMARY FILMESHEAD e o DATA-TOGGLE para COLLAPSE e o DATA TARGET para O NOME DO FILME -->
+  
+          <div class="bg-primary filmesHead" data-toggle="collapse" data-target="PequenoPrincipe" >
+          <!--crie uma tag span da classe GLYPHICON GLYPHICON-FILM -->
+           <span class="glyphicon glyphicon-film"></span>
+              Pequeno Príncipe 
+              <!--Código para fazer a setinha -->
+              <i class="fa fa-sort-desc" ></i>
+          </div>
+  
+          <!--defina o id para o nome do filme a classe para COLLAPSE-->
+          <div id="PequenoPrincipe" class="collapse" >
+  
+              <!--defina a classe para FILMESTEXT-->
+              <div class="filmesText">
+  
+              <!-- coloque a imagem do filme e a classe para IMG-RESPONSIVE IMG-THUMBNAIL -->
+              <img src="https://br.web.img3.acsta.net/pictures/15/06/25/16/20/518080.jpg" class="img-responsive img-thumbnail"> 
+  
+              <!--Defina a classe para TEXT-SUCCESS TEXT-CAPITALIZE -->
+              <h5 class="text-sucess tetxt-capitalize"   > 
+                  <!--Adicione uma descrição do filme -->
+                  O filme é super legal, e divertido que fala do filme é inspirado em pequeno prícipe, mas tem uma história depois do que acontece no livro
+  
+                  <!--adicione 5 tags spans da classe GLYPHICON GLYPHICON-STAR -->
+                  <span class="glyphicon glyphicon-star"></span>
+                  <span class="glyphicon glyphicon-star"></span>
+                  <span class="glyphicon glyphicon-star"></span>
+                  <span class="glyphicon glyphicon-star"></span>
+                  <span class="glyphicon glyphicon-star"></span>
+              </h5>
+                  <p>
+                  <!-- conte sua experiência assistindo o filme -->
+                  Eu chorei nesse filme porque ele é super lindo e uma história triste.
+              </p>
+              </div>
+          
+          </div>
+                    
+
+        </div>
+</body>
+</html>
